@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Event Registration</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>TechFest 2026</h1>
+    <p>Join us for an exciting event filled with innovation and learning!</p>
+  </header>
+
+  <section class="event-info">
+    <h2>Event Information</h2>
+    <p>Date: 25 March 2026</p>
+    <p>Venue: ABC Engineering College Auditorium</p>
+  </section>
+
+  <section class="form-card">
+    <h2>Registration Form</h2>
+    <form>
+      <fieldset>
+        <legend>Personal Details</legend>
+        <label>Name: <input type="text" name="name" required></label><br>
+        <label>Email: <input type="email" name="email" required></label><br>
+        <label>Department:
+          <select name="department">
+            <option>Computer Science</option>
+            <option>Electronics</option>
+            <option>Mechanical</option>
+          </select>
+        </label>
+      </fieldset>
+
+      <fieldset>
+        <legend>Preferences</legend>
+        <label><input type="checkbox" name="workshop"> Workshop Participation</label><br>
+        <label><input type="radio" name="meal" value="veg"> Veg</label>
+        <label><input type="radio" name="meal" value="nonveg"> Non-Veg</label>
+      </fieldset>
+
+      <div class="buttons">
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+      </div>
+    </form>
+  </section>
+
+  <section>
+    <h2>Participants</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Department</th>
+          <th>Email</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>KTAV</td>
+          <td>Computer Science</td>
+          <td>ktav@example.com</td>
+        </tr>
+        <tr>
+          <td>John Doe</td>
+          <td>Mechanical</td>
+          <td>john@example.com</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section class="declaration">
+    <label><input type="checkbox" required> I hereby declare that the information provided is true.</label>
+  </section>
+
+  <footer>
+    <p>Contact: info@techfest2026.com | Phone: +91 98765 43210</p>
+  </footer>
+
+</body>
+</html>
