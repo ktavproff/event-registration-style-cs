@@ -1,0 +1,135 @@
+/* Global Styling */
+body {
+  font-family: Arial, sans-serif;
+  background: #f9f9f9;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+header {
+  text-align: center;
+  background: #2c3e50;
+  color: white;
+  padding: 20px;
+}
+
+header h1 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+/* Event Info */
+.event-info {
+  border: 1px solid #ccc;
+  background: #eef;
+  padding: 15px;
+  margin: 20px;
+  border-radius: 6px;
+}
+
+/* Form Card */
+.form-card {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  padding: 20px;
+  margin: 20px;
+}
+
+fieldset {
+  border: 1px solid #ccc;
+  margin-bottom: 15px;
+  padding: 10px;
+}
+
+legend {
+  font-weight: bold;
+  background: #ddd;
+  padding: 5px 10px;
+  border-radius: 4px;
+}
+
+/* Input Elements */
+input, select {
+  padding: 8px;
+  margin: 5px 0;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+input:focus, select:focus {
+  border-color: #3498db;
+  outline: none;
+}
+
+/* Buttons */
+.buttons {
+  margin-top: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button[type="submit"] {
+  background: #27ae60;
+  color: white;
+}
+
+button[type="submit"]:hover {
+  background: #219150;
+}
+
+button[type="reset"] {
+  background: #e74c3c;
+  color: white;
+}
+
+button[type="reset"]:hover {
+  background: #c0392b;
+}
+
+/* Table Styling */
+table {
+  width: 90%;
+  margin: 20px auto;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+
+thead {
+  background: #2c3e50;
+  color: white;
+}
+
+tbody tr:nth-child(even) {
+  background: #f2f2f2;
+}
+
+tbody tr:hover {
+  background: #dfe6e9;
+}
+
+/* Declaration */
+.declaration {
+  margin: 20px;
+  padding: 10px;
+}
+
+/* Footer */
+footer {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
